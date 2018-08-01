@@ -1,0 +1,128 @@
+ul li {
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 5px 5px;
+}
+
+#asd {
+	text-align: right;
+	border: 1px solid rgb(169,169,169,0.5);
+	padding: 0px 20px;
+	background-color: rgb(169,169,169,0.25);
+}
+
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: rgb(128, 66, 21);
+    font-weight: bold;
+    font-family: 'Hi Melody', cursive;
+    font-size: 30px;
+}
+
+a:hover {
+	color: white;
+}
+
+body {
+	background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/11/02/08/fog-3.jpg);
+	background-size: cover;
+	margin: 0px 10px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Hi Melody', cursive;
+	cursor: pointer;
+	font-size: 50px;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Hi Melody', cursive;
+	font-family: 'Yeon Sung', cursive;
+	color: rgb(255, 249, 170);
+	text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+.formclass {
+	border: 5px solid rgb(0, 51, 51,0.9);
+	text-align: center;
+	padding: 7em 30px;
+	margin: 20px 50em;
+	background-color: rgb(64, 127, 127, 0.20);
+	font-family: 'Hi Melody', cursive;
+	font-family: 'Yeon Sung', cursive;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+.formclass label {
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+    padding: 10px 0px;
+}
+
+.formclass label #gender {
+	font-size: 15px;
+}
+
+.formclass .button{
+	font-family: 'Hi Melody', cursive;
+	font-family: 'Yeon Sung', cursive;
+	font-family: 'Berkshire Swash', cursive;
+	color: black;
+	font-size: 15px;
+	/*padding: 5px 5px;*/
+	transition: all 0.25s;
+}
+
+.formclass .button:hover {
+	font-family: 'Hi Melody', cursive;
+	font-family: 'Yeon Sung', cursive;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px;
+	transform: scale(1.1);
+}
+
+.formclass input{
+	font-family: 'Hi Melody', cursive;
+	font-family: 'Yeon Sung', cursive;
+	/*font-family: 'Berkshire Swash', cursive;
+	font-family: 'Permanent Marker', cursive;*/
+	text-align: center;
+	font-size: 15px;
+}
+
+select {
+	font-family: 'Hi Melody', cursive;
+	font-family: 'Yeon Sung', cursive;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+.helpclass {
+	text-align: center;
+}

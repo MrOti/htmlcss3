@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Hi+Melody" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Hi+Melody|Yeon+Sung" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Hi+Melody|Yeon+Sung" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Hi+Melody|Permanent+Marker|Yeon+Sung" rel="stylesheet">
+</head>
+<body>
+	<div id= "asd">
+	<header>
+		<nav>
+			<ul>
+				<li> <a href= "home.html">Home</a> </li>
+				<li> <a href= "register.html">Register</a> </li>
+				<li> <a href= "login.html">Login</a> </li>
+				<li> <a href= "help.html">Help</a> </li>
+			</ul>
+		</nav>
+	</header>
+	</div>
+	<h1>Registration Form</h1>
+	<div class= "formclass">
+	<form method= "GET">
+		<label>Username</label><br>
+		<input type= "text" name= "user" required><br>
+		<label>E-mail</label><br>
+		<input type= "e-mail" name= "email" required><br>
+		<label>Password</label><br>
+		<input type= "password" minlength= "8" name= "pass" required><br>
+		<label>Date</label><br>
+		<input type= "date" name= "birth"><br>
+		<label>Gender:</label><br>
+		<label><span id= "gender">Male:</span></label>
+		<input type="radio" name="gender" value="male"><br>
+		<label><span id= "gender">Female:</span></label>
+		<input type="radio" name="gender" value="female"><br><br>
+		<label>Job:</label>
+		<select>
+			<option value="itengineer">IT engineer</option>
+			<option value="shopassistant">Shop Assistant</option>
+			<option value="lawyer">Lawyer</option>
+		</select><br><br>
+		<input class= "button" type= "submit" value="Register">
+	</form>
+	</div>
+</body>
+</html>
